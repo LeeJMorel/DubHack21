@@ -1,0 +1,19 @@
+{
+  "name": "pomi",
+  "version": "1.0.0",
+  "description": "\"dubhackfall2021\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leejanzen91/Pomi.git"
+  },
+  "author": "Nhat, Yurii, Lee, Yoyooolo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leejanzen91/Pomi/issues"
+  },
+  "homepage": "https://github.com/leejanzen91/Pomi#readme"
+}
