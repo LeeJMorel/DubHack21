@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Pomi Start Page</title>
+        <link rel = "icon" href = "assets/Pomi_logo.png" type = "image/png">
+        <link rel="stylesheet" href="styles/start.css">
+        <link href='http://fonts.googleapis.com/css?family=Work+Sans' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Roboto&subset=latin,greek,greek-ext,latin-ext,cyrillic' rel='stylesheet' type='text/css'>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="scripts/dynamicAdd.js"></script>
+    </head>
+
+    <body>
+        <div class="navbar">
+            <ul>
+                <li>
+                    <img id="icon1" 
+                        src="assets/Pomi_logo.png" 
+                        alt="Pomi logo" 
+                        height="100">
+                </li>
+                <li>
+                    <img id="icon2" 
+                        src="assets/Pomi_textLogo.png" 
+                        alt="Pomi text logo" 
+                        height="100">
+                </li>
+            </ul>
+        </div>
+        
+        <form id="form">
+            <div class="form-entry">
+                <label for="email" id="email-label">
+                    Your email
+                </label>
+                <input type="email" name="email" id="email" class="form-control" required placeholder="example@email.com">
+            </div>
+            <!-- <div class="form-entry">
+                <label for="add-people" id="add-label">
+                    Who do you want to talk to?
+                </label>
+                <input type="email" name="add-people" id="add-people" class="form-control" 
+                    required placeholder="example@email.com">
+            </div> -->
+
+            <div class="dynamic-wrapper form-entry" id="dynamicAdd">
+                <label for="add-people" id="add-label">
+                    Who do you want to talk to? (Max 4 people)
+                </label>
+                <div>
+                    <input type="email" name="add-people" id="add-people" class="form-control"
+                        required placeholder="example@email.com"
+                    >
+                    <button class="add-btn">Add another +</button>
+                </div>
+            </div>
+
+            <div class="form-entry">
+                <label for="start-convo" id="start-label">
+                    Start the conversation...
+                </label>
+                    <textarea name="start-convo" id="start-convo" class="form-control" 
+                        required placeholder="Type your first message here so they know why you invited them to talk."></textarea>
+            </div>
+            
+            <button type="submit" class="form-entry" id="submit">Start Chat</button>
+        </form>
+        
+        <div class="footer">
+            <a href="https://github.com/leejanzen91/Pomi" id="github_link">
+                <img src="assets/github_icon.png" alt="GitHub icon" height="20">
+                <span id="C_github">Contribute on Github</span>
+            </a>
+        </div>
+    </body>
+
+</html>
