@@ -1,0 +1,157 @@
+body {
+    background-color: #7BC5D6;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+tr {
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+image {
+    width: 20px
+}
+
+.navbar {
+    /* float: left; */
+    width: 100;
+    /* height: 80vh; */
+    margin-left: 1%;
+    padding-left: 150px;
+    padding-top: 30px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+#icon2 {
+    padding-left: 7px;
+}
+
+button {
+    background: #F4A155;
+    text-align: center;
+    width: 75px;
+    height: 75px;
+    border-radius: 100%;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+    margin-left: 13px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+button:hover {
+    background-color: #ff8716;
+    cursor: pointer;
+}
+
+
+
+#book_link {
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 100%;
+    /* or 12px */
+
+    margin-left: 12px;
+}
+
+#research {
+    text-align: center;
+    display: flex; 
+    justify-content: center;
+    padding-left: 20px;
+}
+
+.video {
+    float: right;
+    height: 100%;
+    width: 100%;
+    padding-right: 50px;
+    padding-top: 20px;
+    margin-right: 1%
+}
+
+.description {
+    position: relative;
+    bottom:0;
+    width:60%;
+    /* height:20vh; */
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 20px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 120%;
+    /* or 18px */
+
+    text-align: center;
+
+    color: #000000;
+}
+
+.footer {
+    background: #3588AB;
+    margin: 0;
+    text-align: center;
+    vertical-align: top;
+    height: 25px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+}
+
+#github_link {
+    position: relative;
+    color: white;
+    text-decoration: none;
+    /* font-family: Roboto;
+    font-style: normal;
+    font-weight: normal; */
+    font-size: 15px;
+    line-height: 100%;
+    display: flex;
+    justify-content: center
+}
+
+#C_github {
+    display: flex; 
+    justify-content: center;
+    padding-left: 10px;
+}
